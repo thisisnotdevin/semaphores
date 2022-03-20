@@ -3,10 +3,16 @@
 Semaphores are a good practice for process synchronization and can be implemented using C++. Multiple processes are running at the same time in this project, all using the same data.
 Semaphores are more sophisticated than mutex locks, and it can only be accessed via two indivisible atomic opeartions `wait()` and `signal()`
 
-### designing the waiting operation:
+designing the waiting operation:
+
+
 ![image](https://user-images.githubusercontent.com/66978846/159145433-450627e3-21a7-4530-9c37-6e26faf94db5.png)
 
-### designing the signal operation:
+
+
+designing the signal operation:
+
+
 ![image](https://user-images.githubusercontent.com/66978846/159145447-bccc6ece-8ccb-480b-8f05-502ee8318b3d.png)
 
 
