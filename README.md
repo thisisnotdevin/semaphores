@@ -9,4 +9,4 @@ It's easy to get confused when multiple processes are running at the same time a
 Similar to semaphores, mutex lock stands for mutual exclusion, to protect the critical session it must first acquire() and the release() the lock.
 
 **Here is an example code**
-`![image](https://user-images.githubusercontent.com/66978846/159145159-3eb160ed-1a65-498c-a9ea-d782f4f5f19a.png)`
+![image](https://user-images.githubusercontent.com/66978846/159145159-3eb160ed-1a65-498c-a9ea-d782f4f5f19a.png)
